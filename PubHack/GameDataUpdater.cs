@@ -21,8 +21,8 @@ namespace PubHack {
 								Thread.Sleep(1);
 							} else {
 								GameData.Enemies.Clear();
-								Thread.Sleep(1000);
-							}
+                                Thread.Sleep(1000);
+                            }
 						} else {
 							GameData.Enemies.Clear();
 							Thread.Sleep(1000);

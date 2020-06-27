@@ -19,12 +19,12 @@ namespace PubHack {
 	}
 
 	public static class signatures {
-		public static Int32 dwClientState = 0x589DD4;
+		public static Int32 dwClientState = 0x58ADD4;
 		public static Int32 dwClientState_State = 0x108;
 		public static Int32 dwClientState_ViewAngles = 0x4D88;
-		public static Int32 dwEntityList = 0x4D4B104;
-		public static Int32 dwGameRulesProxy = 0x526807C;
-		public static Int32 dwLocalPlayer = 0xD36B94;
+		public static Int32 dwEntityList = 0x4D4F25C;
+		public static Int32 dwGameRulesProxy = 0x526C1EC;
+		public static Int32 dwLocalPlayer = 0xD3ABEC;
 		public static Int32 m_bDormant = 0xED;
 	}
 }

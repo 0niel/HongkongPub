@@ -20,7 +20,6 @@ namespace PubHack {
 					long clientDllSize = SignatureScan.GetModuleSize(process, "client.dll");
 					int engineDll = SignatureScan.GetModuleBaseAddressByName(process, "engine.dll").ToInt32();
 					long engineDllSize = SignatureScan.GetModuleSize(process, "engine.dll");
-
 					FindWeaponOffset(clientDll, clientDllSize);
 					FindTeamnumOffset(clientDll, clientDllSize);
 					FindHealthOffset(clientDll, clientDllSize);
